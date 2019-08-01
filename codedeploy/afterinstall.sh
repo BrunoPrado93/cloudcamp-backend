@@ -1,7 +1,7 @@
 #!/bin/bash
 #Pull de configs do S3
-aws s3 cp s3://configs-cloudcamp/vhost/vhost.conf /tmp/000-default.conf
-aws s3 cp s3://configs-cloudcamp/variables/env.config /tmp/.env
+aws s3 cp s3://configs-brunoprado/vhost/vhost.conf /tmp/000-default.conf
+aws s3 cp s3://configs-brunoprado/variables/env.config /tmp/.env
 mv /tmp/000-default.conf /etc/apache2/sites-available/
 mv /tmp/.env /var/www/cloudcamp-backend/
 
