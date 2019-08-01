@@ -105,7 +105,7 @@ return [
         ],
 
         'session' => [
-            'host' => env('REDIS_HOST', 'redis.cloudcamp.cf'),
+            'host' => env('REDIS_HOST', 'redis.brunoprado.cf'),
             'password' => env('REDIS_PASSWORD', null),
             'port' => env('REDIS_PORT', 6379),
             'database' => 1,
